@@ -1,7 +1,8 @@
 @echo off
+SET PATH_MOONC="C:\MoonScript\moonc.exe"
 
 CD ".\src"
-START "" "C:\MoonScript\moonc.exe" "-t" "..\dist" .
+START "" %PATH_MOONC% "-t" "..\dist" .
 CD ".."
 
 EXIT
