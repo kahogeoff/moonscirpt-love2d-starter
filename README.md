@@ -14,4 +14,4 @@ A project template that help you start writing a LÖVE powered game with MoonScr
 
 ### How to Customize ?
 
-- Change the `moonc.exe` and `love2d.exe` path in the `.bat` files
+- Change the `moonc.exe` and `love.exe` path in the `.bat` files
